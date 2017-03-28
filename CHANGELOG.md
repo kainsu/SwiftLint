@@ -6,7 +6,9 @@
 
 ##### Enhancements
 
-* None.
+* Update for Xcode 8.3 support.  
+  [Keith Smiley](https://github.com/keith)
+  [#1402](https://github.com/realm/SwiftLint/issues/1402)
 
 ##### Bug Fixes
 
