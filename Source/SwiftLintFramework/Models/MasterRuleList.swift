@@ -122,6 +122,7 @@ public let masterRuleList = RuleList(rules:
     NotificationCenterDetachmentRule.self,
     NumberSeparatorRule.self,
     ObjectLiteralRule.self,
+    OneClassPerFileRule.self,
     OpeningBraceRule.self,
     OperatorFunctionWhitespaceRule.self,
     OperatorUsageWhitespaceRule.self,

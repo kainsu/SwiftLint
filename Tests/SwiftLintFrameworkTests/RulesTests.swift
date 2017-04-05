@@ -183,6 +183,10 @@ class RulesTests: XCTestCase {
         verifyRule(ObjectLiteralRule.description)
     }
 
+    func testOneClassPerFile() {
+        verifyRule(OneClassPerFileRule.description)
+    }
+    
     func testOpeningBrace() {
         verifyRule(OpeningBraceRule.description)
     }
