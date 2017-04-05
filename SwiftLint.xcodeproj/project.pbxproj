@@ -97,6 +97,7 @@
 		C3DE5DAC1E7DF9CA00761483 /* FatalErrorMessageRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE5DAA1E7DF99B00761483 /* FatalErrorMessageRule.swift */; };
 		C9802F2F1E0C8AEE008AB27F /* TrailingCommaRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9802F2E1E0C8AEE008AB27F /* TrailingCommaRuleTests.swift */; };
 		CDFBC7E41E95554100A9ABE4 /* OneClassPerFileRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBC7E31E95554100A9ABE4 /* OneClassPerFileRule.swift */; };
+		CDFBC7E61E956A6400A9ABE4 /* FileNameShouldMatchTopLevelElementRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBC7E51E956A6400A9ABE4 /* FileNameShouldMatchTopLevelElementRule.swift */; };
 		D0AAAB5019FB0960007B24B3 /* SwiftLintFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0D1216D19E87B05005E4BAA /* SwiftLintFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0D1217819E87B05005E4BAA /* SwiftLintFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D1216D19E87B05005E4BAA /* SwiftLintFramework.framework */; };
 		D0E7B65319E9C6AD00EDBA4D /* SwiftLintFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D1216D19E87B05005E4BAA /* SwiftLintFramework.framework */; };
@@ -363,6 +364,7 @@
 		C3DE5DAA1E7DF99B00761483 /* FatalErrorMessageRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FatalErrorMessageRule.swift; sourceTree = "<group>"; };
 		C9802F2E1E0C8AEE008AB27F /* TrailingCommaRuleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailingCommaRuleTests.swift; sourceTree = "<group>"; };
 		CDFBC7E31E95554100A9ABE4 /* OneClassPerFileRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneClassPerFileRule.swift; sourceTree = "<group>"; };
+		CDFBC7E51E956A6400A9ABE4 /* FileNameShouldMatchTopLevelElementRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileNameShouldMatchTopLevelElementRule.swift; sourceTree = "<group>"; };
 		D0D1211B19E87861005E4BAA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; usesTabs = 0; };
 		D0D1212419E878CC005E4BAA /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		D0D1212619E878CC005E4BAA /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -916,6 +918,7 @@
 				D47079AE1DFE520000027086 /* VoidReturnRule.swift */,
 				094384FF1D5D2382009168CF /* WeakDelegateRule.swift */,
 				CDFBC7E31E95554100A9ABE4 /* OneClassPerFileRule.swift */,
+				CDFBC7E51E956A6400A9ABE4 /* FileNameShouldMatchTopLevelElementRule.swift */,
 			);
 			path = Rules;
 			sourceTree = "<group>";
@@ -1280,6 +1283,7 @@
 				85DA81321D6B471000951BC4 /* MarkRule.swift in Sources */,
 				D4A893351E15824100BF954D /* SwiftVersion.swift in Sources */,
 				D4DABFD31E29B4A5009617B6 /* DiscardedNotificationCenterObserverRule.swift in Sources */,
+				CDFBC7E61E956A6400A9ABE4 /* FileNameShouldMatchTopLevelElementRule.swift in Sources */,
 				D4B022B21E10B613007E5297 /* RedundantVoidReturnRule.swift in Sources */,
 				3BCC04D21C4F56D3006073C3 /* NameConfiguration.swift in Sources */,
 				D4C27BFE1E12D53F00DF713E /* Version.swift in Sources */,

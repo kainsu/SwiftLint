@@ -104,6 +104,7 @@ public let masterRuleList = RuleList(rules:
     ForWhereRule.self,
     FunctionBodyLengthRule.self,
     FunctionParameterCountRule.self,
+    FileNameShouldMatchTopLevelElementRule.self,
     GenericTypeNameRule.self,
     IdentifierNameRule.self,
     ImplicitGetterRule.self,
