@@ -8,7 +8,7 @@
 
 import SourceKittenFramework
 
-public struct FileNameShouldMatchTopLevelElementRule: ConfigurationProviderRule {
+public struct FileNameShouldMatchTopLevelElementRule: OptInRule, ConfigurationProviderRule {
     
     public var configuration = SeverityConfiguration(.warning);
     
