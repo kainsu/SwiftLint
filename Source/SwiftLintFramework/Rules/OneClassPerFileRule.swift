@@ -8,7 +8,7 @@
 
 import SourceKittenFramework
 
-public struct OneClassPerFileRule: ConfigurationProviderRule {
+public struct OneClassPerFileRule: OptInRule, ConfigurationProviderRule {
     
     public var configuration = SeverityConfiguration(.warning);
     
